@@ -1,6 +1,6 @@
 // DATE : 24-01-2019
 // TEAM : Geek House
-// Author : Tushar Jain
+// AUTHOR : Tushar Jain
 
 const fs = require('fs');
 var files = []
