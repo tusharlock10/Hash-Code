@@ -7,11 +7,11 @@ var files = []
 fs.readdir('./input', (err, files) => {
 for(let x=0; x<files.length; x++){
 const FILE_NAME = files[x]
+const data = fs.readFileSync(`./input/${FILE_NAME}`);
 // BOILERPLATE CODE FOR READING ALL THE FILES IN input FOLDER
 
 
 // MAIN SOURCE CODE
-const data = fs.readFileSync(`./input/${FILE_NAME}`);
 const inputList = data.toString().split('\n');
 const input1 = inputList[0].split(' ');
 
